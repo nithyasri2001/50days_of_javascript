@@ -59,3 +59,23 @@ properCamelCase = "A String";
 titleCaseOver = 9000;
 
                            
+7.Change the 0 so that sum will equal 20.
+
+output:
+var sum = 10 + 10;
+
+8.Change the 0 so the difference is 12.
+
+output:
+var difference = 45 - 33;
+
+9.Change the 0 so that product will equal 80.
+
+output:
+var product = 8 * 10;
+
+10.Change the 0 so that the quotient is equal to 2.
+
+output:
+var quotient = 66 / 33;
+

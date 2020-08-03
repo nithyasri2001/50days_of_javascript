@@ -1,81 +1,118 @@
-                                   JAVASCRIPT
-                                               
-                                                             
-1.Try creating one of each type of comment.
+                                                               Basic JavaScript
 
+
+```
+console.log("Hello World")
+console.log(3+7)
+console.log("8+3")
+```
 output:
+Hello World
+10
+8+3
+                                               
+##Comment Your JavaScript Code                                                             
+1.Try creating one of each type of comment.
+```
 //This is my first comment
 /* I am interested in javascript*/
+```
 
-
+##Declare JavaScript Variables
 2.Use the var keyword to create a variable called myName.
-
+```
+var myName = "nithya"
+console.log(myName)
+```
 output:
-var myName;
+nithya
 
-
+##Storing Values with the Assignment OperatorPassed
 3.Assign the value 7 to variable a.
 Assign the contents of a to variable b.
-
-output:
-// Setup
+```
 var a;
 var b = 2;
 var a=7;
 var b=a;
-// Only change code below this line
+console.log(b)
+```
+output:
+7
 
-
+##Initializing Variables with the Assignment Operator
 4.Define a variable a with var and initialize it to a value of 9.
-
-output:
+```
 var a = 9;
-
-
-5.Initialize the three variables a, b, and c with 5, 10, and "I am a" respectively so that they will not be undefined.
-
+console.log(a)
+```
 output:
-// Only change code below this line
+9
+
+##Understanding Uninitialized Variables
+5.Initialize the three variables a, b, and c with 5, 10, and "I am a" respectively so that they will not be undefined.
+```
 var a = 5;
 var b = 10;
 var c = "I am a"
-// Only change code above this line
+
 a = a + 1;
 b = b + 5;
 c = c + " String!";
+console.log(a)
+console.log(b)
+console.log(c)
+```
+output:
+6
+15
+I am a String!
 
-
+##Understanding Case Sensitivity in Variables
 6.Modify the existing declarations and assignments so their names use camelCase.
 Do not create any new variables.
-
-output:
-// Variable declarations
+```
 var studlyCapVar;
 var properCamelCase;
 var titleCaseOver;
-// Variable assignments
+
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
+```
 
-                           
+## Add Two Numbers with JavaScript                          
 7.Change the 0 so that sum will equal 20.
-
-output:
+```
 var sum = 10 + 10;
+console.log(sum)
+```
+output:
+20
 
+##Subtract One Number from Another with JavaScriptPassed
 8.Change the 0 so the difference is 12.
-
-output:
+```
 var difference = 45 - 33;
+console.log(difference)
+```
+output:
+12
 
+##Multiply Two Numbers with JavaScript
 9.Change the 0 so that product will equal 80.
-
-output:
+```
 var product = 8 * 10;
-
-10.Change the 0 so that the quotient is equal to 2.
-
+console.log(product)
+```
 output:
-var quotient = 66 / 33;
+80
 
+##Divide One Number by Another with JavaScript
+10.Change the 0 so that the quotient is equal to 2.
+```
+var quotient = 66 / 33;
+console.log(quotient)
+```
+output:
+2

@@ -1,0 +1,55 @@
+##Increment a Number with JavaScript
+11.Change the code to use the ++ operator on myVar.
+```
+var myVar = 87;
+var myVar = myVar++;
+// Only change code below this line
+myVar = myVar + 1;
+console.log(myVar)
+```
+output:
+88
+
+##Decrement a Number with JavaScript
+12.Change the code to use the -- operator on myVar.
+```
+var myVar = 11;
+var myVar = myVar--;
+// Only change code below this line
+myVar = myVar - 1;
+console.log(myVar)
+```
+output:10
+
+##Create Decimal Numbers with JavaScript
+13.Create a variable myDecimal and give it a decimal value with a fractional part (e.g. 5.7).
+```
+var ourDecimal = 5.7;
+// Only change code below this line
+var myDecimal = 5.7;
+console.log(myDecimal)
+```
+output:
+5.7
+
+##Multiply Two Decimals with JavaScript
+14.Change the 0.0 so that product will equal 5.0.
+```
+var product = 2.0 * 2.5;
+console.log(product)
+```
+output:
+5
+
+##Divide One Decimal by Another with JavaScript
+15.Change the 0.0 so that quotient will equal to 2.2.
+```
+var quotient = 4.4 / 2.0; // Change this line
+console.log(quotient)
+```
+output:
+2.2
+
+
+
+
